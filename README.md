@@ -6,13 +6,13 @@ It also does some basic normalization.
 
 
 ```shell
-$ docker build -t clarifyai/1 .
-$ docker run --name clarify -e CLIENT_ID=API_KEY -e CLIENT_SECRET=SECRET -d clarifyai/1
+$ docker build -t clarifai/1 .
+$ docker run --name clarify -e CLIENT_ID=API_KEY -e CLIENT_SECRET=SECRET -d clarifai/1
 
 ```
 
 ```shell
-# any command from clarifyai should work against this wrapper
+# any command from clarifai should work against this wrapper
 
 $ curl "http://localhost:7313/tag/" \
   -X POST --data-urlencode "url=https://samples.clarifai.com/metro-north.jpg"
