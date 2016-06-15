@@ -1,4 +1,4 @@
-# Clarify API docker wrapper
+# Clarifai API docker wrapper
 
 This docker image handles the Auth token and then passes all requests on to the API.
 
